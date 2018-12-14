@@ -6,14 +6,14 @@ $sudo apt-get install libblas-dev liblapack-dev
 
 
 To run the algorithm, do following steps:
-  1 Goto the directory CSCG-DS
-  2 make
-  3 ./cscgds parameters.txt
+  1. Goto the directory CSCG-DS
+  2. make
+  3. ./cscgds parameters.txt
 
 Options are given in parameters.txt file. 
 One can use arguments other than regular options given in parameters.txt
 
 For working with examples given in Example directory:
-1 Copy the files to current folder with filename changed to funcEval.c i.e. $cp Examples/evenDimRound.c funcEval.c
-2 make
-3 ./cscgds parameters.txt
+1. Copy the files to current folder with filename changed to funcEval.c i.e. $cp Examples/evenDimRound.c funcEval.c
+2. make
+3. ./cscgds parameters.txt
