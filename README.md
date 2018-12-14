@@ -5,7 +5,7 @@ This algorithm solves optimization problems without any derivative/gradient info
 Written completely in C with only external dependencies of blas and lapack.
 
 Make sure you have blas and lapack installed on your system.
-for e.g. on ubuntu,mint,debian etc this can done by 
+for e.g. on ubuntu,mint,debian etc this can done by
 **$sudo apt-get install libblas-dev liblapack-dev**
 
 
