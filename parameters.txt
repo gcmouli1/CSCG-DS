@@ -1,0 +1,9 @@
+Dimension		 5
+Precision		 1E-6
+InitialPointDataFile	 startPt.dat
+BoundsDataFile		 Bounds.dat
+PollPattern		 H
+InitialPointFeasible	 1
+NumberConstraints	 0
+Maxevals		 10
+Loglevel		 2
