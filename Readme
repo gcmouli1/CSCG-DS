@@ -1,8 +1,0 @@
-To run the algorithm, do following steps:
-1. Goto the directory CSCG-DS
-2. make
-3. ./cscgds <dimension> <initialPointFile> <maxEvaluations> <pollStepType> <BoundsInformationFile>
-
-for e.g. ./cscgds 4 startPt.dat 500 H Bounds.dat
-
-For pollStepType only two options are available: "H" and "S"
