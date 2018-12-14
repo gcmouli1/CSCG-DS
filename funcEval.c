@@ -1,7 +1,5 @@
 #include "funcEval.h"
 
-//#define INFS DBL_MAX
-
 void userBasicIntialize (userData *uData, char **argv)
 {
 	FILE *fpArgs;
