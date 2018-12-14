@@ -1,5 +1,4 @@
 #include "funcEval.h"
-double dnrm2_(int *dimension, double *vec, int *incx);
 
 //#define INFS DBL_MAX
 
@@ -94,14 +93,7 @@ void userBasicIntialize (userData *uData, char **argv)
 
 void userExtraIntialize (userData *uData, char **argv)
 {
-	//Normalize the starting point using blas function dnrm2.
-	int i;
-	int incx=1;
-	double norm2 = dnrm2_(&uData->dimension, uData->startPt, &incx);
-	for (i=0; i < uData->dimension; i++)
-	{
-		uData->startPt[i] /=  norm2;
-	}
+
 }
 
 double funcEvalValue(double *x, userData *uData)
