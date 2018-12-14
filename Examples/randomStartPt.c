@@ -1,6 +1,4 @@
 #include "funcEval.h"
-double dnrm2_(int *dimension, double *vec, int *incx);
-
 //#define INFS DBL_MAX
 
 void userBasicIntialize (userData *uData, char **argv)
@@ -94,14 +92,17 @@ void userBasicIntialize (userData *uData, char **argv)
 
 void userExtraIntialize (userData *uData, char **argv)
 {
-	//Normalize the starting point using blas function dnrm2.
-	int i;
-	int incx=1;
-	double norm2 = dnrm2_(&uData->dimension, uData->startPt, &incx);
-	for (i=0; i < uData->dimension; i++)
+	//Not the best random generation technique. Its just an example.
+	printf ("don't forget to supply min and max for random number generation\n");
+	int min = atoi(argv[2]);
+	int max = atoi(argv[3]);
+	srand(time(NULL));
+	int i=0;
+	for (i=0; i<uData->dimension; i++)
 	{
-		uData->startPt[i] /=  norm2;
+		uData->startPt[i]=rand()%(max-min+1) + min;
 	}
+
 }
 
 double funcEvalValue(double *x, userData *uData)
