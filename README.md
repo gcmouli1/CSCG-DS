@@ -18,6 +18,9 @@ Options are given in parameters.txt file.
 One can use arguments other than regular options given in parameters.txt
 
 For working with examples given in Example directory:
-1. Copy the files to current folder with filename changed to funcEval.c i.e. **$cp Examples/evenDimRound.c funcEval.c**
+1. Copy the files to current folder with filename changed to funcEval.c (create backup) i.e.
+**$mv funcEval.c funcEval.c_bak**
+**$cp Examples/evenDimRound.c funcEval.c**
 2. **$make**
 3. **$./cscgds parameters.txt**
+4. **$mv funcEval.c_bak funcEval.c**
