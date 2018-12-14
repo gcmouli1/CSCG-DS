@@ -1,4 +1,4 @@
-Dimension		 5
+Dimension		 4
 Precision		 1E-6
 InitialPointDataFile	 startPt.dat
 BoundsDataFile		 Bounds.dat
