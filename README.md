@@ -1,5 +1,5 @@
 # CSCG-DS
-**Constrained Scaled Conjugate Gradient based Direct Search **
+**Constrained Scaled Conjugate Gradient based Direct Search**
 
 This algorithm solves bound constrained optimization problems without any derivative/gradient information.
 Written completely in C with only external dependencies of blas and lapack.
