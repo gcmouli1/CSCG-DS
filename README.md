@@ -1,7 +1,7 @@
 # CSCG-DS
-**Bound Constrained Derivative Free Optimization Algorithm**
+**Constrained Scaled Conjugate Gradient based Direct Search **
 
-This algorithm solves optimization problems without any derivative/gradient information.
+This algorithm solves bound constrained optimization problems without any derivative/gradient information.
 Written completely in C with only external dependencies of blas and lapack.
 
 Make sure you have blas and lapack installed on your system.
