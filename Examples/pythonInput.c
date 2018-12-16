@@ -108,7 +108,7 @@ double funcEvalValue(double *x, userData *uData)
 	}
 	fclose (finput);
 
-	strcpy (command, "python Rosenbrock.py");
+	strcpy (command, "python RosenbrockNew.py");
 	system (command);
 
 	FILE *foutputReader;
