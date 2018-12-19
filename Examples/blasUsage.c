@@ -1,3 +1,6 @@
+/* An Example to show usage of userExtraInitialize. The starting point is normalized and supplied to the solver */
+/* Blas function dnrm_2 is used */
+
 #include "funcEval.h"
 double dnrm2_(int *dimension, double *vec, int *incx);
 
