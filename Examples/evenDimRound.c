@@ -1,3 +1,7 @@
+/* An example to use userExtraInitialize. Here the dimension (if odd) is reduced to even dimension (by deleting the last element) */
+/* Also the starting point is rounded to closest integer point. Although the algorithm still treats it as double */
+
+
 #include "funcEval.h"
 //#define INFS DBL_MAX
 
