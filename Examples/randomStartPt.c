@@ -1,3 +1,6 @@
+/* An example to show the usage of userExtraInitialize. We replace the starting point by a random point within given intervals */
+
+
 #include "funcEval.h"
 //#define INFS DBL_MAX
 
