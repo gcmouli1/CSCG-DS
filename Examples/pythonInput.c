@@ -1,3 +1,8 @@
+/* An example to show how to use some external python function to evaluate function value at current point */
+/* We use Rosenbrock.py to evaluate the function */
+
+
+
 #include "funcEval.h"
 
 //#define INFS DBL_MAX
