@@ -1,10 +1,10 @@
-#**This project has been moved to https://gitlab.com/gcmouli1/bcscgds.**
+# This project has been moved to https://gitlab.com/gcmouli1/bcscgds.
 
 **Please refer to that website for any downloads/updates.**
 
 
 
-# CSCG-DS
+## CSCG-DS
 **Constrained Scaled Conjugate Gradient based Direct Search**
 
 This algorithm solves bound constrained optimization problems without any derivative/gradient information.
