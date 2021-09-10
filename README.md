@@ -1,8 +1,3 @@
-# This project has been moved to https://gitlab.com/gcmouli1/bcscgds.
-
-**Please refer to that website for any downloads/updates.**
-
-
 
 ## CSCG-DS
 **Constrained Scaled Conjugate Gradient based Direct Search**
